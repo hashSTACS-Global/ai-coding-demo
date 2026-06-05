@@ -1,0 +1,11 @@
+{
+  "name": "sales-lead-workbench",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "test": "node --test",
+    "build": "node --check server.js && node --check src/app.js && node --check src/domain/leadStore.js"
+  }
+}
